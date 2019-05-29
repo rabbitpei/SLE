@@ -12,3 +12,7 @@ microarray data: T1.mat
 running pipeline:
 firstly run: *_step1.m
 secondly run: *_step2.m
+
+permutate the n reference samples:
+firstly run: *_step1_permutation.m
+secondly run: *_step2_permutation.m
