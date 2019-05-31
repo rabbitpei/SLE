@@ -2,8 +2,8 @@
 clear;
 clc;
 close all;
-load T1;
-%[T1] = xlsread('data32_filled.xlsx');
+%load T1;
+[T1] = load('data32_filled.txt');
 load genename;
 profile=T1;
 fid=fopen('adj_edges_all.txt');
