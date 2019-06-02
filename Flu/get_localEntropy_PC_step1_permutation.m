@@ -54,7 +54,7 @@ for l=1:psize(2)
         for s=1:psize(3)
             for i=1:e
                 curr_pcc(i)=abs(corr(reshape(tempcontrol(edges_list(i,1),D,s),5,1),...
-                    reshape(tempcontrol(edges_list(i,2),:,s),5,1)));
+                    reshape(tempcontrol(edges_list(i,2),D,s),5,1)));
                 
                 temp_add_onecase1=[reshape(tempcontrol(edges_list(i,1),D,s),1,5), ...
                     reshape(tempcase(edges_list(i,1),l,s),1,1)];
